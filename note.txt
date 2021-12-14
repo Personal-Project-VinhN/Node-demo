@@ -1,0 +1,51 @@
+// --save-dev là chỉ chạy cho môi trường phát triển 
+// mô trường production thì k cần 2 tham số này
+// và nó sẽ nằm trong devDependencies của package.json
+
+// cách run server thông thường
+// node index.js
+
+// nodemon là gì ?
+// npm install nodemon --save-dev
+// để lắng nghe sự thay đổi của các file trong source 
+// để reload lại ứng dụng đang phát triển
+// cách install
+// npm install -g nodemon
+// -g => global nếu bỏ -g thì sẽ cài nodemon vào dự án
+// nếu có -g sẽ cài vào nodemodule vào máy tính (global)
+// npm i nodemon --save-dev
+// cách sử dụng
+// thêm 1 script vào package.js example
+// start : "nodemon index.js"
+// index.js là file main
+// flag --inspect : để sử dụng debug ứng dụng thay vì console.log
+
+
+// morgan là gì 
+// dùng để quan xát được log của các request từ phía client gửi lên node server.
+// npm install morgan --save-dev
+// documentation
+// https://www.npmjs.com/package/morgan
+
+
+// template engine là gì 
+   // handlebars
+
+
+
+mongod --dbpath ~/Documents/mongo-data
+
+
+
+bất đồng bộ là gì
+nghĩa là chương trình có thể nhảy đi bỏ qua một bước nào đó,
+   vì vậy Asynchronous được ví như một chương trình hoạt động không chặt chẽ và không có quy trình 
+
+
+   NPM là gì? – NMP là viết tắt của Node package manager là một công cụ tạo và quản lý các thư viện lập trình Javascript cho Node.js
+
+
+   https://www.npmjs.com/package/mongodb
+
+
+tìm hiểu lại jwt
